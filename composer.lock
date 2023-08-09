@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "476d6e3faaad98e90d063f8b13516d1f",
+    "content-hash": "e15066bd7e1ea86902746e9ed0e7872e",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -5798,16 +5798,16 @@
         },
         {
             "name": "symfony/runtime",
-            "version": "v5.3.10",
+            "version": "v5.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/runtime.git",
-                "reference": "115eebbe287b35d65bd7b062bf3362e135941a59"
+                "reference": "4659b552bc9f2380986e3f4b7e2bd4e512470e0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/runtime/zipball/115eebbe287b35d65bd7b062bf3362e135941a59",
-                "reference": "115eebbe287b35d65bd7b062bf3362e135941a59",
+                "url": "https://api.github.com/repos/symfony/runtime/zipball/4659b552bc9f2380986e3f4b7e2bd4e512470e0d",
+                "reference": "4659b552bc9f2380986e3f4b7e2bd4e512470e0d",
                 "shasum": ""
             },
             "require": {
@@ -5820,10 +5820,10 @@
             },
             "require-dev": {
                 "composer/composer": "^1.0.2|^2.0",
-                "symfony/console": "^4.4|^5",
-                "symfony/dotenv": "^5.1",
-                "symfony/http-foundation": "^4.4|^5",
-                "symfony/http-kernel": "^4.4|^5"
+                "symfony/console": "^4.4.30|^5.4.9|^6.0.9",
+                "symfony/dotenv": "^5.1|^6.0",
+                "symfony/http-foundation": "^4.4.30|^5.3.7|^6.0",
+                "symfony/http-kernel": "^4.4.30|^5.3.7|^6.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -5854,8 +5854,11 @@
             ],
             "description": "Enables decoupling PHP applications from global state",
             "homepage": "https://symfony.com",
+            "keywords": [
+                "runtime"
+            ],
             "support": {
-                "source": "https://github.com/symfony/runtime/tree/v5.3.10"
+                "source": "https://github.com/symfony/runtime/tree/v5.4.26"
             },
             "funding": [
                 {
@@ -5871,7 +5874,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-22T08:45:15+00:00"
+            "time": "2023-07-16T16:48:57+00:00"
         },
         {
             "name": "symfony/security-bundle",
@@ -9928,5 +9931,5 @@
         "ext-iconv": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
